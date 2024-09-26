@@ -68,7 +68,7 @@ insert into country_tbl values(5, 'THAILAND');
 
 ## 12. import from Mysql to Hbase
 ```shell
-sqoop import --connect jdbc:mysql://localhost:3306/energydata --username root --password cloudera --table avgprice_by_state  --hbase-table country --column-family country-cf --hbase-row-key id --hbase-create-table  -m 1
+sqoop import --connect jdbc:mysql://localhost:3306/country_db --username root --password cloudera --table country_tbl  --hbase-table country --column-family country-cf --hbase-row-key id --hbase-create-table  -m 1
 
 ```
 
