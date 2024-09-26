@@ -2,8 +2,9 @@
   "name": "John Doe",
   "age": 30,
   "isStudent": false,
+  "score": [ 10,20,40],
   "courses": [
-    "Math",
+    "Math ",
     "Science",
     "English"
   ],
