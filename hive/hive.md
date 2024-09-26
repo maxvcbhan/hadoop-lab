@@ -8,3 +8,8 @@ SELECT
       ORDER BY count DESC;
 
  ```
+
+## 2. create table
+```shell
+LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
+```
