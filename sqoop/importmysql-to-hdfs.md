@@ -52,7 +52,7 @@ mysql -u root -p
 
 create database country_db;
 use country_db;
-create table table country_tbl (id int not null , country varchar(50), primary key (id));
+create table country_tbl (id int not null , country varchar(50), primary key (id));
 
 ```
 
