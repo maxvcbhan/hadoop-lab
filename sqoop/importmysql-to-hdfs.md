@@ -18,7 +18,7 @@ use energydata;
 
 ## 5. create table
 ```shell
-create table avgprice_by_state(
+CREATE TABLE avgprice_by_state(
     year INT NOT NULL,
     state VARCHAR(5) NOT NULL,
     residential DECIMAL (10, 2),
