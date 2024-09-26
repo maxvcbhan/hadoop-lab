@@ -25,8 +25,8 @@ create table avgprice_by_state(
     industrial DECIMAL (10, 2),
     transportation DECIMAL (10, 2),
     other DECIMAL (10, 2),
-    total DECIMAL (10, 2),     
-)
+    total DECIMAL (10, 2)     
+);
 
 ```
 ## 6. load data to table
