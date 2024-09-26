@@ -1,3 +1,4 @@
+USE my_db;
 CREATE TABLE apache_log (
     host STRING,
     identity STRING,
