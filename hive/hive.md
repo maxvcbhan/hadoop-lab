@@ -1,9 +1,14 @@
-## 1. load table
+## 1. create table
+```shell
+hive < create-table-log.sql
+```
+
+## 2. load table
 ```shell
 LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
 ```
 
-## 2. query
+## 3. query
 ```shell
 SELECT
         month,
