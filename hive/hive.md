@@ -1,4 +1,9 @@
-## 1. query
+## 1. load table
+```shell
+LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
+```
+
+## 2. query
 ```shell
 SELECT
         month,
@@ -9,7 +14,3 @@ SELECT
 
  ```
 
-## 2. create table
-```shell
-LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
-```
