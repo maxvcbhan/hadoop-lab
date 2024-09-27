@@ -10,6 +10,7 @@ hadoop fs -put access.log /user/cloudera/access.log
 ```
 ## 3. load table
 ```shell
+use log_data;
 LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
 ```
 
