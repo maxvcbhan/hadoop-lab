@@ -2,13 +2,18 @@
 ```shell
 hive < create-table-log.sql
 ```
+## 2. put access.log to HDFS
+```shell
 
-## 2. load table
+hadoop fs -put access.log /user/cloudera/access.log
+
+```
+## 3. load table
 ```shell
 LOAD DATA INPATH '/user/cloudera/access.log' OVERWRITE INTO TABLE apache_log;
 ```
 
-## 3. query
+## 4. query
 ```shell
 SELECT
         month,
