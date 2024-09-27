@@ -1,6 +1,7 @@
 ## 1. Load dataset  
 
-```https://github.com/bbengfort/hadoop-fundamentals/blob/master/data/avgprice_kwh_state.zip```
+```shell
+https://github.com/bbengfort/hadoop-fundamentals/blob/master/data/avgprice_kwh_state.zip```
 
 ## 2. login to mysql
 ```shell
